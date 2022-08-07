@@ -5,12 +5,27 @@
 }
 
 /* Estilos del Header */
+#navbar{
+    background-color: #F4DBD8; 
+}
 
 .navbar-brand {
     font-size: 2rem;
 }
-
-/* Estilos del main */
-img {
-    width: 30%;
+/* Estilos del form */
+button {
+    background-color: #F4DBD8;
+}
+/* Estilos del footer */
+footer {
+    background-color: #F4DBD8;
+    /* height: 4rem; */
+    color: black;
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
 }
